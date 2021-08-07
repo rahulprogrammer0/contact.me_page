@@ -1,0 +1,37 @@
+/* this page in include in html file (personal page) */
+
+:root {
+  --font-size: 4em;
+  --bg-clr: rgb(46, 41, 41);
+  --white-clr: white;
+  --img-width: 2em;
+  --img-height: 2em;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(mountain.jpg);
+  background-size: cover;
+  /* background-color: var(--bg-clr); */
+  color: var(--white-clr);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+a {
+  color: var(--white-clr);
+}
+h1 {
+  margin-top: 3em;
+  font-size: var(--font-size);
+}
+img {
+  width: var(--img-width);
+  height: var(--img-height);
+}
